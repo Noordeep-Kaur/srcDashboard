@@ -1,0 +1,70 @@
+<form name="frmUser" class="alert alert-primary">
+    <table>
+        <tr>
+            <td><label for="txtName">Name</label></td>
+            <td>
+                <input type="text" id="txtName"  class="form-control" placeholder="Please enter your name" required />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="txtAge">Age</label></td>
+            <td> 
+                <input type="number" id="txtAge" min="18" max="56"  class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtDOB">Date of Birth</label>
+            </td>
+            <td>
+                <input type="date" id="txtDOB" max="2020-07-15"  class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="txtEmail" >Email</label></td>
+            <td>
+                <input type="email" id="txtEmail" placeholder="abc@xyz.com"  class="form-control" />
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input type="radio" id="rdbMale" value="male" name="gender" checked />Male
+                <input type="radio" id="rdbFemale" value="female" name="gender" />Female
+            </td>
+        </tr>
+        <tr>
+            <td><label>Graduation</label></td>
+            <td>
+                <input type="checkbox" id="chkUG" value="UG" checked />UG
+                <input type="checkbox" id="chkPG" value="PG" />PG
+            </td>
+        </tr>
+        <!-- <tr>
+            <td><label>City</label></td>
+            <td>
+                <select id="ddlCity" class="form-control">
+                    <option value="Agra">Agra</option>
+                    <option value="Bengaluru">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi" selected>Delhi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+            <td>
+                <input list="countryList" value="--select--" id="ddlCountry" class="form-control"/>
+                <datalist id="countryList">
+                    <option value="China"/>
+                    <option value="USA"/>
+                    <option value="UK"/>
+                    <option value="India"/>
+                </datalist>
+            </td>
+        </tr>-->
+        <tr> 
+            <td><input type="submit" onclick="getData()"  /></td>
+            <td><input type="reset" class="btn btn-primary" /></td>
+        </tr>
+    </table>
+</form>

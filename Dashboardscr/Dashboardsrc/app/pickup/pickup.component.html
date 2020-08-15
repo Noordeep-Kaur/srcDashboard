@@ -1,0 +1,20 @@
+<h1>Pickup Points</h1>
+<div *ngFor="let p of pickups">
+    <input type="radio" id="pick" name="pick1">
+    <label for="pick"><b>{{p.FromLocation}}</b></label><br>
+    {{p.FromDescription}}<br>
+    {{p.FromDate}}<br>
+    {{p.FromTime}}<br>
+    {{p.Fare}}<br>
+</div>
+<hr>
+<!-- <h1>Dropping Points</h1>
+<div *ngIf="pickups">
+    <input type="radio" id="pick1" name="pick2">
+    <label><b>{{pickups[0].ToLocation}}</b></label><br>
+     {{p[0].ToDescription}}<br>
+    {{p[0].ToDate}}<br> -->
+    <!-- {{p.ToTime}}<br> 
+</div> -->
+
+
